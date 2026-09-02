@@ -138,12 +138,6 @@ header, section, footer {
   margin-bottom: 1.6rem;
 }
 
-.hero-buyer {
-  color: var(--paper-dim);
-  max-width: 34em;
-  margin-bottom: 2.2rem;
-}
-
 .hero-thesis {
   font-size: clamp(1.15rem, 2.6vw, 1.45rem);
   line-height: 1.5;
