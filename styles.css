@@ -376,6 +376,25 @@ header, section, footer {
 }
 .rule + .rule { margin-top: 1.6rem; }
 
+/* ---------- what comes after ---------- */
+
+.coda {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid var(--hairline);
+}
+.coda-line {
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  line-height: 1.4;
+  max-width: 26em;
+  margin-bottom: 2.6rem;
+}
+.coda-body {
+  color: var(--paper-dim);
+  max-width: 36em;
+}
+
 /* ---------- fact strip ---------- */
 
 .facts {
