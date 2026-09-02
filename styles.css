@@ -344,11 +344,21 @@ header, section, footer {
 .offer-field p:not(.section-label) { font-size: 1.15rem; }
 
 .offer-shape {
+  margin-top: 3.2rem;
+  padding-left: 1.4rem;
+  border-left: 2px solid var(--brass);
+  max-width: 30em;
+}
+.offer-shape p {
   font-family: var(--serif);
   font-size: clamp(1.2rem, 2.4vw, 1.5rem);
-  line-height: 1.55;
+  line-height: 1.5;
   color: var(--brass);
-  max-width: 30em;
+}
+.offer-shape p.offer-shape-note {
+  margin-top: 0.7rem;
+  font-size: clamp(1.05rem, 2vw, 1.2rem);
+  opacity: 0.85;
 }
 
 /* ---------- rules ---------- */
